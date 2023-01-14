@@ -28,31 +28,33 @@ const About = () => {
             <h1>会社概要</h1>
             <ul>
               <li className={classes.heading}>会社名</li>
-              <li>株式会社クリパー</li>
+              <li className={classes.content}>株式会社クリパー</li>
             </ul>
             <ul>
               <li className={classes.heading}>設立</li>
-              <li>2022年10月8日</li>
+              <li className={classes.content}>2022年10月8日</li>
             </ul>
             <ul>
               <li className={classes.heading}>代表者</li>
-              <li>黒宮 佳史</li>
+              <li className={classes.content}>黒宮 佳史</li>
             </ul>
             <ul>
               <li className={classes.heading}>資本金</li>
-              <li>5,000,000円</li>
+              <li className={classes.content}>5,000,000円</li>
             </ul>
             <ul>
               <li className={classes.heading}>事業内容</li>
-              <li>製造業特化型 有料職業紹介業</li>
+              <li className={classes.content}>製造業特化型 有料職業紹介業</li>
             </ul>
             <ul>
               <li className={classes.heading}>許可番号</li>
-              <li>厚生労働大臣許可 優良職業紹介免許：27-ユ-303895</li>
+              <li className={classes.content}>
+                厚生労働大臣許可 優良職業紹介免許：27-ユ-303895
+              </li>
             </ul>
             <ul>
               <li className={classes.heading}>本社位置</li>
-              <li>
+              <li className={classes.content}>
                 大阪府大阪市中央区南船場2丁目1番3号フェニックス南船場ビルB1F
               </li>
             </ul>
