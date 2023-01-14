@@ -1,0 +1,77 @@
+@media screen and (min-width: 769px) {
+  .bg {
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(232deg, #ff9c64 28.07%, #fe5b00 100%);
+  }
+  .ceo {
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    padding-top: 20%;
+  }
+  .img {
+    width: 360px;
+    height: 360px;
+    background: #f9f9f9;
+    background-image: url(../images/kuromiya-yoshihumi.png);
+    margin-right: 4%;
+
+    border-radius: 16px;
+  }
+  .introduction {
+    width: 50vw;
+    height: 25vw;
+  }
+  .introduction p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #f9f9f9;
+  }
+  .introduction h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f9f9f9;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bg {
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(232deg, #ff9c64 28.07%, #fe5b00 100%);
+    overflow-y: scroll;
+  }
+  .ceo {
+    width: 96%;
+    margin: 0 auto;
+
+    padding-top: 20%;
+  }
+  .img {
+    width: 320px;
+    height: 320px;
+    background: #f9f9f9;
+    background-image: url(../images/kuromiya-yoshihumi.png);
+    background-position: center;
+    margin: 0 auto;
+
+    border-radius: 16px;
+  }
+  .introduction {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .introduction p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #f9f9f9;
+  }
+  .introduction h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #f9f9f9;
+  }
+}

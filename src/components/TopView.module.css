@@ -1,0 +1,85 @@
+@media screen and (min-width: 769px) {
+  .bg {
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(232deg, #ff9c64 28.07%, #fe5b00 100%);
+    overflow-y: scroll;
+  }
+  .slogan {
+    width: 95%;
+    height: 100vh;
+    padding-left: 8%;
+  }
+  .mission {
+    width: 95%;
+    height: 100vh;
+    padding-left: 8%;
+  }
+  .valueBg {
+    width: 95%;
+    height: 100vh;
+    padding-left: 8%;
+  }
+  .value {
+    font-size: 32px;
+    font-weight: 600;
+    color: #f9f9f9;
+  }
+
+  h1 {
+    padding-top: 20%;
+    font-size: 96px;
+    font-weight: 600;
+    color: #f9f9f9;
+  }
+  p {
+    font-size: 32px;
+    font-weight: 600;
+    color: #f9f9f9;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bg {
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(232deg, #ff9c64 28.07%, #fe5b00 100%);
+    overflow-y: scroll;
+  }
+  .slogan {
+    width: 96%;
+    height: 100vh;
+    padding-top: 25%;
+    padding-left: 2%;
+  }
+  .mission {
+    width: 96%;
+    height: 100vh;
+    padding-top: 25%;
+    padding-left: 2%;
+  }
+  .valueBg {
+    width: 96%;
+    height: 100vh;
+    padding-top: 25%;
+    padding-left: 2%;
+  }
+  .value {
+    font-size: 16px;
+    font-weight: 600;
+    color: #f9f9f9;
+  }
+
+  h1 {
+    padding-top: 40%;
+    font-size: 48px;
+    font-weight: 600;
+    color: #f9f9f9;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #f9f9f9;
+  }
+}
