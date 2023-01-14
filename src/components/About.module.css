@@ -1,4 +1,4 @@
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 821px) {
   .bg {
     width: 100%;
     background: #f9f9f9;
@@ -58,7 +58,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
   .bg {
     width: 100%;
     background: #f9f9f9;
