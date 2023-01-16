@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
-import classes from "./Header.module.css";
 
-const header = () => {
+import classes from "./Header.module.css";
+import React, { useState } from "react";
+
+const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <>
       <div className={classes.bg}>
@@ -11,7 +14,7 @@ const header = () => {
           </Link>
         </div>
         <div className={classes.right}>
-          <ul className={classes.contents}>
+          <ul className={`${classes.contents} ${menuOpen ? classes.open : ""}`}>
             <li className={classes.content}>
               <Link to={"/"}>事業概要</Link>
             </li>
@@ -22,10 +25,18 @@ const header = () => {
               <Link to={"/for-company"}>採用担当者様はこちら</Link>
             </li>
           </ul>
+          <button
+            className={classes.hunberger}
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            <div className={classes.line1}></div>
+            <div className={classes.line1}></div>
+            <div className={classes.line2}></div>
+          </button>
         </div>
       </div>
     </>
   );
 };
 
-export default header;
+export default Header;

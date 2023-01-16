@@ -89,7 +89,7 @@
   .manuWorker {
     display: inline-block;
     width: 96%;
-    height: 360px;
+    height: 260px;
     background: #f9f9f9;
     background-image: url(../images/manufacturing-worker.png);
     background-position: center;
@@ -114,7 +114,7 @@
   .manuEngineer {
     display: inline-block;
     width: 96%;
-    height: 360px;
+    height: 260px;
     background: #f9f9f9;
     background-image: url(../images/engineer.png);
     background-position: center;

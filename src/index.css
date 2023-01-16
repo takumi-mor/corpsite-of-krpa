@@ -7,6 +7,14 @@ h1 {
   text-decoration: none;
   margin: 0;
 }
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+}
 body,
 ul,
 ol {

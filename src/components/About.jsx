@@ -32,7 +32,7 @@ const About = () => {
             </ul>
             <ul>
               <li className={classes.heading}>設立</li>
-              <li className={classes.content}>2022年10月8日</li>
+              <li className={classes.content}>2022年10月</li>
             </ul>
             <ul>
               <li className={classes.heading}>代表者</li>
@@ -44,12 +44,12 @@ const About = () => {
             </ul>
             <ul>
               <li className={classes.heading}>事業内容</li>
-              <li className={classes.content}>製造業特化型 有料職業紹介業</li>
+              <li className={classes.content}>人材紹介事業</li>
             </ul>
             <ul>
               <li className={classes.heading}>許可番号</li>
               <li className={classes.content}>
-                厚生労働大臣許可 優良職業紹介免許：27-ユ-303895
+                厚生労働大臣許可 有料職業紹介免許：27-ユ-303895
               </li>
             </ul>
             <ul>
