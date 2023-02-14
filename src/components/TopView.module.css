@@ -6,6 +6,9 @@
     background: linear-gradient(232deg, #ff9c64 28.07%, #fe5b00 100%);
     overflow-y: scroll;
   }
+  .slogans {
+    overflow: hidden;
+  }
   .slogan {
     width: 95%;
     height: 100vh;

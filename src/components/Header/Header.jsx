@@ -22,7 +22,13 @@ const Header = () => {
               <Link to={"/abouts"}>会社概要</Link>
             </li>
             <li className={classes.content}>
-              <Link to={"/for-company"}>採用担当者様はこちら</Link>
+              <a
+                href="https://krpa-recruit-service.vercel.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                採用担当者様はこちら
+              </a>
             </li>
           </ul>
           <button
